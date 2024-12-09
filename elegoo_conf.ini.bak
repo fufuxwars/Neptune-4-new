@@ -1,0 +1,161 @@
+# elegoo_conf.ini Version：V1.3-20240624
+# Applicable model：Neptune 4 pro
+[filament_th_target]
+pla                            = 205
+abs                            = 240
+petg                           = 220
+tpu                            = 230
+level                          = 140
+max_extruder_tmprature         = 300
+
+
+[filament_tb_target]
+pla                            = 60
+abs                            = 80
+petg                           = 70
+tpu                            = 50
+level                          = 60
+max_tmp                        = 110
+
+
+[printer_offset]
+z_offset                       = 0
+
+
+[elegoo_model]
+model                          = 0
+hwbdv                          = 1.1
+
+
+[plr_print]
+plr_file                       = elegoo
+plr_file_estime                = 0
+plr_process                    = 0.0
+plr_fun_status                 = 1
+
+[printer]
+max_velocity                   = 500
+max_accel                      = 21000
+max_accel_to_decel             = 21000
+
+[speed_mode]
+print_mode                     = 0
+max_velocity_normal            = 500
+max_accel_normal               = 10000
+max_accel_to_decel_normal      = 20000
+en_spreadcycle_normal          = 1
+fan_max_percent_normal         = 80
+max_velocity_silent            = 270
+max_accel_silent               = 8000
+max_accel_to_decel_silent      = 20000
+en_spreadcycle_silent          = 0
+fan_max_percent_silent         = 50
+max_velocity_berserk           = 500
+max_accel_berserk              = 20000
+max_accel_to_decel_berserk     = 20000
+en_spreadcycle_berserk         = 1
+fan_max_percent_berserk        = 100
+max_accel_normal_default             = 5000
+max_accel_to_decel_normal_default    = 20000
+max_accel_silent_default             = 4000
+max_accel_to_decel_silent_default    = 20000
+max_accel_berserk_default            = 10000
+max_accel_to_decel_berserk_default   = 20000
+
+[level_mode]
+level_points = 6
+mesh_min_x   = 15
+mesh_min_y   = 21
+mesh_max_x   = 210
+mesh_max_y   = 220
+up_z = 100
+fan_set_a = 40
+fan_set_b = 50
+fan_set_c = 50
+wait_for_expansion    = 10
+wait_for_sensor_ready = 10
+e_tempe_to_cool = 330
+b_tempe_to_cool = 120
+
+[speed_adaptive]
+sp_adap_status                 = 0
+z1                             = 0.2
+z2                             = 10
+z3                             = 30
+z4                             = 50
+z5                             = 60
+z6                             = 70
+z7                             = 80
+z8                             = 90
+z9                             = 100
+z10                            = 110
+z11                            = 120
+z12                            = 130
+z13                            = 140
+z14                            = 150
+z15                            = 160
+z16                            = 170
+z17                            = 180
+z18                            = 190
+z19                            = 200
+z20                            = 210
+a1                             = 7000
+a2                             = 6489
+a3                             = 5901
+a4                             = 5625
+a5                             = 5357
+a6                             = 5102
+a7                             = 4855
+a8                             = 4621
+a9                             = 4395
+a10                            = 4181
+a11                            = 3975
+a12                            = 3780
+a13                            = 3593
+a14                            = 3415
+a15                            = 3248
+a16                            = 3088
+a17                            = 2938
+a18                            = 2795
+a19                            = 2662
+a20                            = 2500
+b1                             = 20000
+b2                             = 20000
+b3                             = 20000
+b4                             = 20000
+b5                             = 20000
+b6                             = 20000
+b7                             = 20000
+b8                             = 20000
+b9                             = 20000
+b10                            = 20000
+b11                            = 20000
+b12                            = 20000
+b13                            = 20000
+b14                            = 20000
+b15                            = 20000
+b16                            = 20000
+b17                            = 20000
+b18                            = 20000
+b19                            = 20000
+b20                            = 20000
+v1                             = 500
+v2                             = 500
+v3                             = 490
+v4                             = 480
+v5                             = 470
+v6                             = 460
+v7                             = 450
+v8                             = 440
+v9                             = 430
+v10                            = 420
+v11                            = 410
+v12                            = 400
+v13                            = 390
+v14                            = 380
+v15                            = 370
+v16                            = 360
+v17                            = 350
+v18                            = 335
+v19                            = 320
+v20                            = 300
